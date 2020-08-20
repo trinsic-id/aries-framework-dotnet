@@ -174,7 +174,7 @@ namespace Hyperledger.TestHarness.Mock
                         .RegisterAgent(options =>
                         {
                             options.GenesisFilename = Path.GetFullPath("pool_genesis.txn");
-                            options.PoolName = "TestPool";
+                            options.PoolName = "sovrin-staging";
                             options.WalletConfiguration.Id = Guid.NewGuid().ToString();
                             options.WalletCredentials.Key = "test";
                             options.EndpointUri = "http://test";
